@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     box-sizing: border-box;
     padding: 0;
+    font-family: "Work Sans", sans-serif;;
 }
 
 header{
@@ -8,17 +11,53 @@ header{
     align-items: center;
     text-align: center;
     max-height: 130px;
+    position: relative;
+}
+
+header svg{
+    margin-left: 20px;
 }
 
 header h1{
     font-size: 5em;
+    margin-left: 30px;
 }
 
 section.faq-card{
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
-    max-width: 700px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+    background-color: hsl(0, 0%, 100%);
+    border: 10px solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 3px 3px 30px hsl(292, 16%, 49%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15em;
+}
+
+main{
+    margin-left: 30px;
+}
+
+.question-one p,
+.question-two p,
+.question-three p,
+.question-four p{
+    font-size: 18px;
+    color: gray;
+    font-weight: 340;
+    width: 650px;
+}
+
+.question-one h2,
+.question-two h2,
+.question-three h2,
+.question-four h2{
+    display: flex;
+
 }
