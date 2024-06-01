@@ -16,7 +16,7 @@ allQuestions.forEach((question, index) => {
     const plusIcon = plusIcons[index];
     const minusIcon = minusIcons[index];
 
-    /* Toggles the display of the paragraph and icons */
+    
     if (para.style.display === "none") {
       para.style.display = "block";
       plusIcon.style.display = "none";
